@@ -7,17 +7,17 @@ Looking for vacation rentals, cabins, beach houses, and/or unique homes around t
 
 # 🖱 Wiki Links
 
-[API Documentation](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/API-Documentation)
+[API Documentation](https://github.com/BrennonMorris/AirBnB-Clone/wiki/API-Documentation)
 
-[Database Schema](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/Database-Schema)
+[Database Schema](https://github.com/BrennonMorris/AirBnB-Clone/wiki/Database-Schema)
 
-[Feature List](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/Feature-List)
+[Feature List](https://github.com/BrennonMorris/AirBnB-Clone/wiki/Feature-List)
 
-[Redux Store Shape](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/Redux-Store-Shape)
+[Redux Store Shape](https://github.com/BrennonMorris/AirBnB-Clone/wiki/Redux-Store-Shape)
 
-[User Stories](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/User-Stories)
+[User Stories](https://github.com/BrennonMorris/AirBnB-Clone/wiki/User-Stories)
 
-[Wireframes](https://github.com/BrennonMorris/Air-BnB-Clone/wiki/Wireframes)
+[Wireframes](https://github.com/BrennonMorris/AirBnB-Clone/wiki/Wireframes)
 
 # 🧑‍💻 Under the Hood
 
