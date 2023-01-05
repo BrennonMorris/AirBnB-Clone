@@ -1,0 +1,159 @@
+
+.login-button-dropdown {
+    margin-top: 8px;
+}
+
+.signup-button-dropdown {
+    margin: 0;
+}
+
+.demo-span-dropdown {
+    color: #db2650;
+}
+
+.demo-button-dropdown {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.logout-button-dropdown,
+.login-button-dropdown,
+.demo-button-dropdown,
+.signup-button-dropdown {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.login-span-dropdown,
+.signup-span-dropdown,
+.demo-span-dropdown {
+    display: flex;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.demo-button-dropdown:hover {
+    background-color: rgba(110, 158, 0, 0.2);
+}
+
+.login-button-dropdown:hover {
+    background-color: rgba(110, 158, 0, 0.2);
+}
+
+.signup-button-dropdown:hover {
+    background-color: rgba(110, 158, 0, 0.2);
+}
+
+#border-modal {
+    height: 100px;
+    width: 100px;
+}
+
+.modal-body {
+    height: 270px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -20px;
+}
+
+.signup-modal-body {
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -20px;
+}
+
+#modal-header {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    display: flex;
+    color: #db2650;
+    justify-content: center;
+}
+
+#login-form {
+    width: 100%;
+    padding: 20px 20px 0;
+}
+
+.login-container {
+    width: 100%;
+}
+
+.input-container {
+    display: block;
+    position: relative;
+}
+
+.login-input-title {
+    position: absolute;
+    top: -10px;
+    left: 8px;
+    margin: 0;
+    padding: 0 2px;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: white;
+    cursor: default;
+}
+
+.invisible-errors {
+    visibility: hidden;
+}
+
+.login-input-error {
+    position: absolute;
+    top: -7px;
+    right: 8px;
+    margin: 0;
+    padding: 0 2px;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: white;
+    cursor: default;
+    color: rgb(228, 0, 0);
+}
+
+.login-form-field {
+    height: 50px;
+    padding: 5px 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.login-form-field:focus {
+    outline-color: #db2650;
+}
+
+#login-button {
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #db2650;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.errors-div-login {
+    margin-top: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(213, 0, 0);
+    font-weight: 600;
+}

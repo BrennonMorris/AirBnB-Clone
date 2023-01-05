@@ -1,0 +1,263 @@
+.user-listings-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    min-height: 100%;
+}
+
+.user-listings-inner {
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 52px;
+}
+
+.user-listings-title {
+    font-size: 30px;
+    margin: 24px 0;
+}
+
+.indiv-listing-container {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.indiv-listing-container:hover {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.indiv-rev-star {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.indiv-listing-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.indiv-listing-body {
+    margin-left: 32px;
+    /* width: 801px; */
+    /* height: 253px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.indiv-listing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listing-title-user {
+    font-size: 20px;
+    margin: 0;
+    max-width: 715px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.indiv-rev-header {
+    display: flex;
+    align-items: center;
+}
+
+.indiv-avg-rev {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user-listing-buttons {
+    padding: 5px;
+    padding-left: 8px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: -5px 0;
+    background-color: transparent;
+    transition: 1s background-color ease;
+}
+
+#edit-listing-button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+#delete-listing-button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+#edit-listing-button {
+    margin-right: 8px;
+}
+
+#change-listing-image {
+    height: 32px;
+}
+
+#indiv-listing-pictures {
+    height: 260px;
+    width: 260px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.indiv-listing-rooms-such {
+    margin: 8px 0;
+}
+
+.indiv-listing-description {
+    word-wrap: break-word;
+    width: 790px;
+}
+
+.container-for-review-body {
+    word-wrap: break-word;
+}
+
+.indiv-listing-description,
+.bed-bath-span {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#delete-modal-header {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    display: flex;
+    color: #db2650;
+    justify-content: center;
+}
+
+.modal-body-delete {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.delete-listing-buttons {
+    width: 100%;
+}
+
+.user-delete-buttons {
+    padding: 14px 24px;
+    width: 49%;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#delete-indiv-listing-button {
+    margin-right: 2%;
+    background-color: #db2650;
+}
+
+#cancel-indiv-listing-button {
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+
+.indiv-review-header-title {
+    font-size: 28px;
+    margin: 0 0 16px;
+    max-width: 1046px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.indiv-review-container {
+    width: 100%;
+    padding: 24px 36px 36px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.indiv-review-container:hover {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.indiv-review-breakdown-section {
+    margin-bottom: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.review-specific-review-stat {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.review-specific-stat-title {
+    width: 200px;
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+.container-for-review-body {
+    font-size: 16px;
+}
+
+.user-arrow {
+    height: 70px;
+    margin: 0 20px;
+}
+
+#left-arrow {
+    transform: rotate(90deg);
+}
+
+#right-arrow {
+    transform: rotate(270deg);
+}
+
+.get-started-listings {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#list-your-place {
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #db2650;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 240px;
+}
+
+#list-your-review {
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #db2650;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 240px;
+}
+
+.user-sad-title {
+    font-size: 30px;
+    margin: 48px 0 24px;
+}
