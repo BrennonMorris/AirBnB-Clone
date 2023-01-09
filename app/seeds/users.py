@@ -12,7 +12,7 @@ def seed_users():
                   password="password",
                   profile_pic=profile_pictures[random.randrange(len(profile_pictures))],
                   first_name="George",
-                  last_name="Smith"
+                  last_name="Smith" 
                   )
       # 3
     owner6 = User(first_name='Brennon',
