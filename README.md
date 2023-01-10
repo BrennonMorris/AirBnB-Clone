@@ -86,7 +86,7 @@ Looking for vacation rentals, cabins, beach houses, and/or unique homes around t
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/BrennonMorris/Air-BnB-Clone
+   git clone https://github.com/BrennonMorris/AirBnB-Clone
    ```
 
 2. Install dependencies
