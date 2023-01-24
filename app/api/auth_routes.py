@@ -68,11 +68,7 @@ def logout():
     logout_user()
     return {'message': 'User logged out'}
 
-profile_pictures = ['https://i.imgur.com/WhWHh0n.png', 'https://i.imgur.com/fLHOV60.png',
-                    'https://i.imgur.com/NXuXQXr.png', 'https://i.imgur.com/n22XD2U.png',
-                    'https://i.imgur.com/oORAZBS.png', 'https://i.imgur.com/3ygq2Zk.png',
-                    'https://i.imgur.com/BE1bV8K.png', 'https://i.imgur.com/zIACz8c.png',
-                    'https://i.imgur.com/rgjDNRB.png', 'https://i.imgur.com/xrTfdN1.png']
+profile_pictures = ['https://cdn-icons-png.flaticon.com/512/4681/4681664.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681414.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681611.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681561.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681691.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681769.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681741.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681673.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681538.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681628.png']
 
 @auth_routes.route('/signup', methods=['POST'])
 def sign_up():
