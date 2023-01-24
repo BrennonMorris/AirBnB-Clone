@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { loadListings, clearData } from '../../store/listings';
+import { loadListings } from '../../store/listings';
 import './Homepage.css';
 import star from '../../icons/homepage/cardstar.svg';
 
@@ -19,65 +19,8 @@ const Homepage = () => {
         'Comfort paired with lots of fun'
     ]
 
-    // const typesSection = (
-    //     <div className='navbar-types-section'>
-    //       <div className='types-section-inner'>
-    //         <button className='type-button'>
-    //           <img src={omg} alt='omg' className='type-icon' />
-    //           <span className='type-name'>OMG!</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={luxe} alt='luxe' className='type-icon' />
-    //           <span className='type-name'>Luxe</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={bf} alt='bf' className='type-icon' />
-    //           <span className='type-name'>Beachfront</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={man} alt='man' className='type-icon' />
-    //           <span className='type-name'>Mansions</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={cab} alt='cab' className='type-icon' />
-    //           <span className='type-name'>Cabins</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={ryo} alt='ryo' className='type-icon' />
-    //           <span className='type-name'>Ryokans</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={des} alt='des' className='type-icon' />
-    //           <span className='type-name'>Desert</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={lake} alt='lake' className='type-icon' />
-    //           <span className='type-name'>Lakefront</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={tiny} alt='tiny' className='type-icon' />
-    //           <span className='type-name'>Tiny homes</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={cast} alt='cast' className='type-icon' />
-    //           <span className='type-name'>Castles</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={con} alt='con' className='type-icon' />
-    //           <span className='type-name'>Containers</span>
-    //         </button>
-    //         <button className='type-button'>
-    //           <img src={camp} alt='camp' className='type-icon' />
-    //           <span className='type-name'>Camping</span>
-    //         </button>
-    //       </div>
-    //     </div>
-    //   )
-
     useEffect(() => {
         dispatch(loadListings(type));
-
-        // return () => dispatch(clearData());
     }, [type, dispatch]);
 
 
@@ -134,30 +77,3 @@ const Homepage = () => {
 }
 
 export default Homepage;
-
-
-
-
-
-function distance(lat1, lon1, lat2, lon2) {
-
-    lon1 = lon1 * Math.PI / 180;
-    lat1 = lat1 * Math.PI / 180;
-    lon2 = lon2 * Math.PI / 180;
-    lat2 = lat2 * Math.PI / 180;
-
-    // Haversine formula
-    let dlon = lon2 - lon1;
-    let dlat = lat2 - lat1;
-    let a = Math.pow(Math.sin(dlat / 2), 2)
-            + Math.cos(lat1) * Math.cos(lat2)
-            * Math.pow(Math.sin(dlon / 2), 2);
-
-    let c = 2 * Math.asin(Math.sqrt(a));
-
-    // Radius of earth in miles
-    let r = 3956;
-
-    // calculate the result
-    return c * r;
-}

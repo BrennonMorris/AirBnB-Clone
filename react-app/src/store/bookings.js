@@ -20,9 +20,6 @@ export const addBooking = (booking, listingId) => async dispatch => {
     const response = await fetch(`/api/listings/${listingId}`);
 
     if (response.ok) {
-        console.log('the response is a-okay');
-        const listing = await response.json();
-
         const bookRes = await fetch(`/api/listings/${listingId}/bookings`, {
             method: 'POST',
             headers: {

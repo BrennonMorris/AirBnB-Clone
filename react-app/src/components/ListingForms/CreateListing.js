@@ -15,7 +15,6 @@ const CreateListing = () => {
     const [ city, setCity ] = useState("");
     const [ state, setState ] = useState("");
     const [ description, setDescription ] = useState("");
-    // const [country, setCountry] = useState("United States");
     const [ max_guests, setMaxGuests ] = useState(1);
     const [ bed, setBed ] = useState(1);
     const [ bath, setBath ] = useState(1);

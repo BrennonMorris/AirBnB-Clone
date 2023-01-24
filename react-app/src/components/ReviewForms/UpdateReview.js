@@ -8,9 +8,6 @@ const UpdateReview = () => {
   const { reviewId } = useParams();
   const history = useHistory();
   const dispatch = useDispatch();
-  const reviews = useSelector(state => state.reviews.allReviews);
-
-  const user = useSelector(state => state.session.user);
 
   const [ hover1a, isHover1a ] = useHover();
   const [ hover2a, isHover2a ] = useHover();
@@ -103,17 +100,6 @@ const UpdateReview = () => {
 
       if (newReview) history.replace(`/reviews/current`);
   }
-
-
-
-//   if (reviews && user.id !== reviews?.reviewId?.user_id) {
-
-//     console.log('this is the userid', user.id)
-//     console.log('this is the reviews userid', review?.user_id)
-//     alert('You cannot update a review that you did not write.');
-//     history.replace('/');
-//   }
-
 
 return (
   <div className='create-review-container'>

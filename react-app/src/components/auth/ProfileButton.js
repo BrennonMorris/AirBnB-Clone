@@ -9,7 +9,6 @@ import './ProfileButton.css'
 function ProfileButton() {
   const user = useSelector(state => state.session.user)
   const [showMenu, setShowMenu] = useState(false);
-  // console.log('this is the user',user)
   const openMenu = () => {
     if (showMenu) return;
     setShowMenu(true);
@@ -50,16 +49,6 @@ function ProfileButton() {
               Reviews
             </NavLink>
           </div>
-          {/* <div >
-            <NavLink className='dropdown-text' to='/bookings/current'>
-              Trips
-            </NavLink>
-          </div>
-          <div>
-            <NavLink className='dropdown-text' to='/wishlists/current'>
-              Wishlists
-            </NavLink>
-          </div> */}
           <div id='logout'>
             <LogoutButton />
           </div>

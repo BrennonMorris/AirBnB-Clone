@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
 import updateList from '../../icons/listing/update.svg';
 import deleteList from '../../icons/listing/delete.svg';
 import './UserPages.css';

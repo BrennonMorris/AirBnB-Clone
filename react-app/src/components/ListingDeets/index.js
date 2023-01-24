@@ -95,13 +95,6 @@ const ListingDeets = () => {
     }
 
     const listing = useSelector(state => state.listings.singleListing);
-    // console.log('this is the listing',listing);
-
-    /*
-    if (reviews) {
-
-    }
-    */
 
     useEffect(() => {
         dispatch(getOne(listingId));

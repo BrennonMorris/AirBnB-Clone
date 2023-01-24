@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
-import { Redirect, useLocation } from 'react-router-dom';
+import { useDispatch } from 'react-redux'
 import { signUp, login } from '../../store/session';
 import { Modal } from '../../context/Modal';
 import './LoginSignupModal.css';
 
 const LoginSignupModal = () => {
     const dispatch = useDispatch();
-    const url = useLocation().pathname;
     const [errors, setErrors] = useState([]);
     const [first_name, setFirstname] = useState('');
     const [last_name, setLastname] = useState('');

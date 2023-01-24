@@ -22,8 +22,6 @@ export const addReview = (review, listingId) => async dispatch => {
     const response = await fetch(`/api/listings/${listingId}`);
 
     if (response.ok) {
-        const listing = await response.json();
-
         const reviewRes = await fetch(`/api/listings/${listingId}/reviews`, {
             method: 'POST',
             headers: {
