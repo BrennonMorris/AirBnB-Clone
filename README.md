@@ -15,8 +15,6 @@ Looking for vacation rentals, cabins, beach houses, and/or unique homes around t
 
 [User Stories](https://github.com/BrennonMorris/AirBnB-Clone/wiki/User-Stories)
 
-[Wireframes](https://github.com/BrennonMorris/AirBnB-Clone/wiki/Wireframes)
-
 # 🧑‍💻 Under the Hood
 
 ## 🤖 Integrated Web Technologies
@@ -72,12 +70,6 @@ Looking for vacation rentals, cabins, beach houses, and/or unique homes around t
 ### Update and/or Delete your Reviews
 
 <img width="1912" alt="Screenshot 2023-01-05 at 2 02 38 PM" src="https://user-images.githubusercontent.com/103297104/210888648-38e5d70a-d96b-4fee-accb-d1556fc92501.png">
-
-# 🚧 To do list
-
-1. Complete CRUD functionality for Bookings
-2. Complete filter/search functionality based on location, type, and max guests
-3. Complete CRUD functionality for Wishlists
 
 # 📲 Setup locally
 
