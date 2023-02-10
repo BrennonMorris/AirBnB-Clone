@@ -3,8 +3,6 @@
 Looking for vacation rentals, cabins, beach houses, and/or unique homes around the world? CloneBnB is where you can find all these things!
 (Inspired by the popular website, [airbnb](https://www.airbnb.com/))
 
-**🚀 Live site: [clonebnb](https://clonebnb.herokuapp.com/) **
-
 # 🖱 Wiki Links
 
 [API Documentation](https://github.com/BrennonMorris/AirBnB-Clone/wiki/API-Documentation)
